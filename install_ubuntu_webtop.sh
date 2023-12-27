@@ -1,1 +1,1 @@
-docker run -d --name=webtop -e PUID=1000 -e PGID=1000 -e TZ=America/New_York -p 3600:3600 -v "/Users/$(whoami)/Documents/Bug Bounty Programs/webtop" --shm-size="1gb" --restart unless-stopped lscr.io/linuxserver/webtop:ubuntu-xfce
+docker run -d --name=webtop -e PUID=1000 -e PGID=1000 -e TZ=America/New_York -p 3000:3000 -v "/Users/$(whoami)/Documents/Bug Bounty Programs/webtop" --shm-size="1gb" --restart unless-stopped lscr.io/linuxserver/webtop:ubuntu-xfce
